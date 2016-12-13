@@ -47,7 +47,7 @@ $redirect = home_url();
  * @param string   $action    The login or logout action being taken.
  * @param object   $user      The current user.
  */
-$redirect = apply_filters( 'wp_multisite_sso_redirect', $redirect, $action, $user );
+$redirect = apply_filters( 'wp_multisite_sso_redirect', $redirect, $action );
 ?>
 <html>
 	<head>
